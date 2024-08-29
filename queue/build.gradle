@@ -31,9 +31,6 @@ android {
 }
 
 dependencies {
-
-//	implementation libs.androidx.core.ktx
-//	implementation libs.androidx.appcompat
 	implementation libs.kotlinx.coroutines.core
 	implementation libs.material
 	testImplementation libs.junit
@@ -46,7 +43,7 @@ publishing {
 		annotation(MavenPublication) {
 			groupId "com.github.xpwu"
 			artifactId project.name
-			version "0.1.0"
+			version "1.0.0"
 
 			afterEvaluate {
 				from components.release
