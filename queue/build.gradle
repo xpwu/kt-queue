@@ -42,8 +42,8 @@ publishing {
 	publications {
 		annotation(MavenPublication) {
 			groupId "com.github.xpwu"
-			artifactId project.name
-			version "1.0.0"
+			artifactId "kt-queue"
+			version "1.0.1"
 
 			afterEvaluate {
 				from components.release
