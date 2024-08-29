@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 
 dependencies {
   // 加入如下依赖
-  implementation 'com.github.xpwu:kt-queue:1.0.0'
+  implementation 'com.github.xpwu:kt-queue:<version>'
 }
-
 ```
+< version>: 替换为使用的版本 
